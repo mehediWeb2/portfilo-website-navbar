@@ -1,0 +1,13 @@
+*{box-sizing: border-box;}
+body{ margin: 0%;}
+h1{font: size 2rem;text-align: center;}
+img{width: 120px; height: 100px;}
+a{color: white; font-size: 1.5rem; text-decoration: none;}
+.navbar{background-color: green; padding: 1% 7%;text-align: center;}
+[class*="col-"]{float: left; padding: 10px;}
+[class*="col-"]{width: 100%;}
+.navbar::after{ content:"" ; display: table; clear: both;}
+.navbar h1{ color: blue; margin: 0; padding: 10px;}
+.navbar-menu{ display: flex; flex-direction:column;text-transform: uppercase;}
+.navbar-menu a{ background-color: blueviolet; border-radius:4px; margin: 7px 10px; padding: 10px;}
+.navbar-menu a:hover{background-color: darkmagenta;}
